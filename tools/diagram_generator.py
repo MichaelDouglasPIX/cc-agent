@@ -4,12 +4,12 @@ from diagrams.custom import Custom
 from config.diagram_node_types import NODE_TYPES
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ASSETS_DIR = os.path.join(os.path.dirname(BASE_DIR), "assets")
+ASSETS_DIR = os.path.join(os.path.dirname(BASE_DIR), "assets/images")
 
 def get_valid_node_types():
     return list(NODE_TYPES.keys())
 
-def generate_diagram(model, project_identifier: str, output_path="docs/Identifier_architecture_diagram.png", ):
+def generate_diagram(model, project_identifier: str, output_path="assets/docs/Identifier_architecture_diagram.png", ):
     """
     Generates an architecture diagram using the `diagrams` library and saves it as a PNG.
 
@@ -48,7 +48,7 @@ def generate_diagram(model, project_identifier: str, output_path="docs/Identifie
         
         project_identifier (str): Identifier for the project.        
 
-        output_path (str): Path to the output file, e.g., "docs/Identifier_architecture_diagram.png"
+        output_path (str): Path to the output file, e.g., "assets/docs/Identifier_architecture_diagram.png"
 
     Returns:
         dict: 
