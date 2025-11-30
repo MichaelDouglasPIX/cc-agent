@@ -61,6 +61,12 @@ effort.
         <br>Poetry
       </a>
     </td>
+    <td align="center" width="100">
+      <a href="https://graphviz.org/" target="_blank">
+        <img src="./assets/images/graphviz.png" width="50"/>
+        <br>Graphviz
+      </a>
+    </td>
   </tr>
 </table>
 
@@ -74,6 +80,7 @@ effort.
 ### Local tools
 -   Python = 3.12
 -   Poetry
+-   Graphviz
 
 ### External services / LLM
 -   Access to Gemini 2.5 Flash (Google LLM)
